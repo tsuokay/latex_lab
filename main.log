@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.3)  9 JUN 2023 08:50
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.3)  9 JUN 2023 11:29
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -911,31 +911,31 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 33.
+(Font)              <7> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 33.
+(Font)              <5> on input line 52.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 33.
+(Font)              scaled to size 6.73553pt on input line 52.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 33.
+(Font)              scaled to size 4.8111pt on input line 52.
  [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 26548 strings out of 478305
+ 28446 strings out of 478305
  125244,1977958 words of node,token memory allocated
  814 words of node memory still in use:
    7 hlist, 1 vlist, 4 rule, 2 glue, 3 kern, 1 glyph, 140 attribute, 48 glue_spe
 c, 21 attribute_list, 2 write, 9 user_defined nodes
-   avail lists: 1:2,2:14519,3:927,4:658,5:28,6:2,7:1533,8:2,9:919,11:6
- 45883 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:28803,3:2010,4:1156,5:22,6:2,7:2945,8:2,9:1912,11:3
+ 47781 multiletter control sequences out of 65536+600000
  29 fonts using 12820447 bytes
- 130i,9n,124p,1740b,1945s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130i,9n,132p,1740b,2949s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/t
 exlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.o
 tf>
-Output written on main.pdf (1 page, 22557 bytes).
+Output written on main.pdf (1 page, 31956 bytes).
 
 PDF statistics: 25 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream
