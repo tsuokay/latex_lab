@@ -1,0 +1,34 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{luatexja}
+\usepackage{forest}
+
+\begin{document}
+\begin{forest}
+  for tree={
+    draw,
+    align=center,
+    parent anchor=south,
+    child anchor=north,
+    edge={shorten >=5pt, shorten <=5pt, ->},
+    l sep+=10pt,
+  }
+  [３次元解析の授業
+    [背景
+      [Society 5.0]
+      [情報の細密化]
+    ]
+    [３次元計測の歴史
+        [Kinectの登場前]
+        [Kinectの登場後]
+        [近年の動向
+            [ハードウェア・アルゴリズムの進化]
+            [深層学習の勃興]
+        ]
+    ]
+    [Open3D
+        [File I/O]
+    ]
+    [基礎となる数学知識]
+  ]
+\end{forest}
+\end{document}
