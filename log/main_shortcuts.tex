@@ -1,0 +1,56 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{luatexja}
+\usepackage{forest}
+
+\begin{document}
+\begin{forest}
+  for tree={
+    draw,
+    align=center,
+    parent anchor=east,  % Change to west
+    child anchor=west,  % Change to east
+    edge={->, rounded corners=2mm},
+    edge path={
+      \noexpand\path[\forestoption{edge}]
+      (!u.parent anchor) -- ([xshift=10pt]!u.parent anchor) |- (.child anchor)\forestoption{edge label};
+    },
+    l sep+=10pt,
+    grow=east,  % Add this line to grow to the east (right)
+    reversed,
+  }
+  [知識確認
+    [エクセルの習熟度]
+    [ショートカットキー
+      [エクセルの画面について
+      ]
+      [一般的なショートカットキー
+        [Ctrl+c]
+        [Ctrl+v]
+        [Ctrl+x]
+      ]
+      [エクセルのショートカットキー
+        [Ctrl+Home]
+        [Ctrl+矢印]
+        [Shift+矢印]
+        [Ctrl+Ctrol+矢印]
+      ]
+    ]
+    [データのタイプ
+      [文字列]
+      [数字]
+      [日付（日時）]
+    ]
+    [数式バー
+      [四則演算]
+      [相対参照と絶対参照]
+      [セルの入力・編集モード]
+      [関数の使い方
+        [SUM関数]
+        [AVERAGE関数]
+        [MAX関数]
+        [IF関数]
+      ]
+    ]
+  ]
+\end{forest}
+\end{document}
